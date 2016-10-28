@@ -1,0 +1,138 @@
+body, p {
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.navbar-default {
+  margin: 0;
+  border: 0;
+}
+
+.header {
+  background-color: #39474e;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar-default .left-menu>li>a {
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.navbar-default .header-logo {
+  padding-left: 50px;
+  padding-right: 15px;
+}
+
+.header-logo img {
+  height: 63px;
+  width: 83px;
+}
+
+/*.navbar-default .left-menu {
+  padding-right: 30px;
+}*/
+
+.hero {
+  background-image: url(https://www.theironyard.com/content/dam/theironyard/home/amy-home-web2.jpg);
+  background-size: cover;
+  height: 500px;
+}
+
+.hero-title {
+  color: white;
+  font-weight: bold;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  padding-left: 90px;
+  font-size: 60px;
+}
+
+.featured-companies {
+  background-color: #EEEEEE;
+  height: 115px;
+}
+
+.company-images {
+  height: 100px;
+}
+
+.companies {
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.tiy-details {
+  padding-top: 50px;
+}
+
+.tiy-txt>h3 {
+  line-height: 36px;
+  font-weight: bold;
+  /*font-style: italic;*/
+  margin: 15px 0;
+  font-size: 26px;
+  color: #727d84;
+}
+
+.tiy-txt>p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.course-details {
+  background-color: #EEEEEE;
+}
+
+.course-txt>h3 {
+  font-size: 34px;
+  line-height: 36px;
+  font-weight: bold;
+  /*font-style: italic;*/
+  text-align: center;
+  margin: 0;
+  padding-bottom: 10px;
+  color: #727d84;
+}
+
+.course-txt>p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.course-txtrow {
+  padding-top: 50px;
+}
+
+.course-title>p {
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.course-titlerow {
+  padding-top: 30px;
+}
+.course-images {
+  padding-left: 40px;
+  padding-bottom: 20px;
+  padding-top: 30px;
+}
+
+.txt-frontend {
+  color: rgb(206,131,45);
+}
+.txt-backend {
+  color: rgb(184,88,76);
+}
+.txt-mobile {
+  color: rgb(211,180,43);
+}
+.txt-design {
+  color: rgb(53,160,173);
+}
