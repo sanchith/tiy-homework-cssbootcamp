@@ -1,6 +1,7 @@
 body, p {
     font-weight: 400;
     line-height: 1.6;
+    color: #39474e;
 }
 
 .navbar-default {
@@ -174,4 +175,165 @@ body, p {
   margin: 0 auto;
   width: 50%;
   max-width: 230px;
+}
+
+.tiy-feedback {
+  padding-top: 50px;
+}
+
+.tiy-questions>h4 {
+  font-size: 21px;
+  color: #838F95;
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+.tiy-questions>h3 {
+  color: #838f95;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: bold;
+  font-style: italic;
+  margin: 20px 0;
+}
+
+.tiy-questions {
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-rendering: optimizeLegibility;
+}
+
+.footer {
+  background-color: #39474e;
+  padding: 0 50px;
+}
+
+.footer-nav {
+  padding-top: 40px;
+  padding-left: 50px;
+}
+
+.footer-ul {
+  padding-left: 0;
+}
+
+.footer-li>a {
+  display: inline-block;
+  text-decoration: none;
+  list-style: none;
+  font-size: 14px;
+  line-height: 30px;
+  color: #9CA7AB;
+  text-align: left;
+}
+
+.footer-label {
+  color: #fff;
+}
+
+.tiy-pr>a {
+  display: inline-block;
+  text-decoration: none;
+  list-style: none;
+  font-size: 14px;
+  line-height: 30px;
+  color: #fff;
+  text-align: left;
+}
+
+.tiy-copyright {
+  display: inline-block;
+  text-align: right;
+  padding-top: 40px;
+  padding-right: 50px;
+}
+
+.tiy-copyright>img {
+  height: 80px;
+}
+
+.tiy-copyright>p {
+  color: #b5b7be;
+  font-size: 12px;
+  text-align: right;
+  padding-top: 20px;
+}
+
+.footer-li>a:hover {
+  text-decoration: underline;
+}
+
+.tiy-pr>a:hover {
+  text-decoration: underline;
+}
+
+.form-contact, .form-email {
+  /*position: relative;*/
+  border-radius: 10px;
+  margin: 0 auto;
+  /*max-height: 295px;*/
+  background-color: #EBEBEB;
+  padding: 25px;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #d2d2d2;
+  /*overflow: hidden;*/
+}
+
+.fact-sheet {
+  /*display: block;*/
+  margin-top: 20px;
+}
+
+.form-input {
+  overflow: hidden;
+}
+
+.input-name {
+  overflow: hidden;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.first-name {
+  width: 49%;
+  float: left;
+  /*margin-right: 5px;*/
+}
+
+.last-name {
+  width: 49%;
+  float: right;
+}
+
+.sidebyside {
+  width: 100%;
+  display: inherit;
+  padding: 10px 10px;
+}
+
+.ph-num {
+  clear: both;
+  /*margin: 5px 0;*/
+  margin-bottom: 10px;
+  padding: 10px 25px;
+  width: 100%;
+}
+
+.send-button {
+  display: block;
+  margin: 0 auto 10px;
+  font-size: 17px;
+  width: 100%;
+  color: #ffffff;
+  border-radius: 5px;
+  font-weight: bolder;
+  padding: 10px 25px;
+  background-color: #6fbbb7;
+  border: none;
+  border-bottom: 2px solid #4fa8a3;
+}
+
+.tiy-feedback {
+  padding-bottom: 50px;
 }
