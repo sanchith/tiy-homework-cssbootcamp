@@ -37,7 +37,7 @@ body, p {
 .hero {
   background-image: url(https://www.theironyard.com/content/dam/theironyard/home/amy-home-web2.jpg);
   background-size: cover;
-  height: 500px;
+  height: 600px;
 }
 
 .hero-title {
@@ -67,6 +67,7 @@ body, p {
 
 .tiy-details {
   padding-top: 50px;
+  padding-bottom: 30px;
 }
 
 .tiy-txt>h3 {
@@ -117,6 +118,7 @@ body, p {
 
 .course-titlerow {
   padding-top: 30px;
+  padding-bottom: 50px;
 }
 .course-images {
   padding-left: 40px;
@@ -135,4 +137,41 @@ body, p {
 }
 .txt-design {
   color: rgb(53,160,173);
+}
+
+.employers {
+    background-image: url(https://www.theironyard.com/content/dam/theironyard/home/employers-image.jpg);
+    background-size: cover;
+    /*height: 1000px;*/
+}
+
+.employers-txtrow {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.employers-txt>h3 {
+    font-size: 34px;
+    line-height: 36px;
+    font-weight: bold;
+    /*font-style: italic;*/
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.employers-txt>p {
+  font-size: 18px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.employer-icons {
+  max-width: 960px;
+}
+
+.emp-icons {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  max-width: 230px;
 }
