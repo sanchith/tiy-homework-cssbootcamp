@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>CSS Bootcamp - TIY website</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -46,7 +46,12 @@
 
     <!-- Hero section -->
     <div class="container-fluid hero">
-      <h1 class="hero-title">Where will your job take you?</h1>
+      <div class="hero-box typewriter">
+        <h1 class="hero-title">Where will your job take you?</h1>
+        <br>
+        <h4 class="blinking-txt">Learn to code. Take charge of your career.</h4>
+        <button class="watch-button">Watch the video</button>
+      </div>
     </div>
 
     <!-- Featured companies section in light grey -->
@@ -99,19 +104,14 @@
               <form>
                 <div class="input-name">
                   <div class="first-name">
-                    <!-- <label for="firstname">First Name:</label> -->
                     <input class="sidebyside" type="text" id="firstname" name="user_name" placeholder="First Name"/>
                   </div>
-
                   <div class="last-name">
-                    <!-- <label for="lastname"> Last Name:</label> -->
                     <input class="sidebyside" type="text" id="lastname" name="user_name" placeholder="Last Name"/>
                   </div>
                 </div>
-                  <!-- <label for="tel">Phone Number:</label> -->
                   <input class="ph-num" type="tel" id="tel" name="user_tel" placeholder="Your Phone Number"/>
 
-                  <!-- <label for="email">E-mail:</label> -->
                   <input class="ph-num" type="email" id="email" name="user_email" placeholder="Email Address" />
 
                   <button class="send-button" type="submit">Email me the fact sheet</button>
