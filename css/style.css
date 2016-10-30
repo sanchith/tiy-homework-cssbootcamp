@@ -18,7 +18,6 @@ body, p {
 .navbar-default .left-menu>li>a {
     color: white;
     font-size: medium;
-    font-weight: bold;
 }
 
 .navbar-default .header-logo {
@@ -31,9 +30,27 @@ body, p {
   width: 83px;
 }
 
-/*.navbar-default .left-menu {
-  padding-right: 30px;
-}*/
+.left-menu>li>a:hover {
+  border-bottom: solid 2px #6fbbb7;
+  /*color: rgba(255,255,255,0.4);*/
+  font-weight: 500;
+  opacity: 1;
+  text-decoration: none;
+  padding: 5px 0px;
+}
+
+.right-menu>li>a:hover {
+  text-decoration: underline;
+  color: rgba(181,183,190,0.6);
+}
+
+.right-menu>li>a {
+  padding-right: 20px;
+}
+
+.right-menu {
+  padding-right: 25px;
+}
 
 .hero {
   background-image: url(https://www.theironyard.com/content/dam/theironyard/home/amy-home-web2.jpg);
@@ -71,7 +88,7 @@ body, p {
   animation:
     typing 5.0s steps(40, end),
     blink .80s step-end infinite;
-    animation-duration: 10s;
+    animation-duration: 8s;
     animation-delay: 7s;
     animation-iteration-count: infinite;
 }
@@ -86,6 +103,11 @@ body, p {
   0% { opacity: 1; }
   58% {opacity: 0;}
   100% {opacity: 1;}
+}
+
+.gly-icon {
+  font-size: 40px;
+  padding-right: 5px;
 }
 
 .featured-companies {
@@ -184,7 +206,7 @@ body, p {
 }
 
 .employers-txtrow {
-  padding-top: 20px;
+  padding-top: 40px;
   padding-bottom: 20px;
 }
 
@@ -210,8 +232,12 @@ body, p {
 .emp-icons {
   display: block;
   margin: 0 auto;
-  width: 50%;
-  max-width: 230px;
+  width: 60%;
+  /*max-width: 230px;*/
+}
+
+.learn-more-button {
+  margin: 0 50px;
 }
 
 .tiy-feedback {
@@ -357,7 +383,7 @@ body, p {
   width: 100%;
 }
 
-.send-button, .watch-button{
+.send-button, .watch-button, .start-button, .learn-button {
   font-size: 17px;
   color: #ffffff;
   border-radius: 5px;
@@ -375,13 +401,39 @@ body, p {
   border-bottom: 2px solid #4fa8a3;
 }
 
+.learn-button {
+  width: 100%;
+  padding: 10px 20px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-bottom: 80px;
+}
+
 .watch-button {
   width: 20%;
-  padding: 15px 25px;
+  padding: 10px 20px;
   display: block;
   margin-top:8px;
 }
 
+.start-button {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 3px;
+  display: block;
+  margin-top: 8px;
+}
+
+.watch-txt {
+  font-size: 18px;
+  display: inline-block;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
 
 .tiy-feedback {
   padding-bottom: 50px;
