@@ -2,6 +2,7 @@ body, p {
     font-weight: 400;
     line-height: 1.6;
     color: #39474e;
+    font-family: 'PT Serif', serif;
 }
 
 .navbar-default {
