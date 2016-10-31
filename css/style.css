@@ -200,6 +200,78 @@ body, p {
   color: rgb(53,160,173);
 }
 
+.name-bold {
+  font-weight: bold;
+}
+
+.say-title, .say-txt, .students-say>h4 {
+  color: #838F95;
+}
+
+.say-title {
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+.say-txt {
+  font-weight: bolder;
+  line-height: 1.6;
+}
+
+.students-say {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+.student-txt>p {
+  color: #727d84;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 25px
+  text-align: left;
+  min-height: 125px
+  margin-bottom: 15px;
+  font-weight: lighter;
+}
+
+.student-img {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-left: 80px;
+}
+
+.std1-icon, .std2-icon {
+  height: 110px;
+  width: 110px;
+  border-radius: 100%;
+  border: 5px solid orange;
+}
+
+.std2-icon {
+  border: 5px solid maroon;
+}
+
+.student-txt {
+  margin-right: 30px;
+}
+
+.student-name {
+  color: #6fbbb7;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+.student-title {
+  /*color: #727d84;*/
+  text-align: center;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  color: #6f7c82;
+}
+
 .employers {
     background-image: url(https://www.theironyard.com/content/dam/theironyard/home/employers-image.jpg);
     background-size: cover;
@@ -209,6 +281,11 @@ body, p {
 .employers-txtrow {
   padding-top: 40px;
   padding-bottom: 20px;
+}
+
+.employers-txt {
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 .employers-txt>h3 {
@@ -412,6 +489,13 @@ body, p {
   display: block;
   margin: 0 auto 10px;
   border-bottom: 2px solid #4fa8a3;
+}
+
+.stories-button {
+  width: 70%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: 0;
 }
 
 .learn-button {
